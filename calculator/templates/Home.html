@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    {% load staticfiles %}
+    <link href="{% static 'Content/bootstrap.min.css' %}" rel="stylesheet" />
+    <title>Caculator</title>
+    <style>
+        body
+        {
+            padding-top:70px;
+        }
+        div
+        {
+            padding-top:5px;
+            padding-right:5px;
+            padding-left:5px;
+            padding-bottom:5px;
+            font-size:25px;
+        }
+        button 
+        {
+            box-shadow:5px 5px grey;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+            font-stretch:wider;
+            cursor: pointer;
+            width:90px;
+            height:50px;
+        }
+        .screen
+        {
+            background-color:#acabb7;
+            box-shadow:5px 5px rgb(94, 93, 93);
+            text-align: right;
+            display: inline-block;
+            font-size: 25px;
+            width:285px;
+            height:50px;
+        }
+        .box{
+            width: 430px;
+            box-shadow:5px 5px rgb(94, 93, 93);
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row>
+                <div class="col-xs-12" style="">
+                    <div class="container box" id="container_box" style="box-shadow:8px 5px black;background-color:navajowhite;">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-danger btn-lg" onclick="showValue(0)">C</button>
+                                <button type="button" id="screen" class="btn btn-default btn-lg screen" disabled="disabled"></button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(2)" value="7">7</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(3)" value="8">8</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(4)" value="9">9</button>
+                                <button type="button" class="btn btn-success btn-lg" onclick="showValue(5)" value="+">+</button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(6)" value="4">4</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(7)" value="5">5</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(8)" value="6">6</button>
+                                <button type="button" class="btn btn-success btn-lg" onclick="showValue(9)" value="-">-</button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(10)" value="1">1</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(11)" value="2">2</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(12)" value="3">3</button>
+                                <button type="button" class="btn btn-success btn-lg" onclick="showValue(13)" value="/">÷</button>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(14)" value="0">0</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="showValue(15)" value=".">.</button>
+                                <button type="button" class="btn btn-info btn-lg" onclick="showValue(16)" value="=">=</button>
+                                <button type="button" class="btn btn-success btn-lg" onclick="showValue(17)" value="*">×</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="{% static 'Scripts/JavaScript1.js' %}"></script>
+    <script src="{% static 'Scripts/jquery-3.1.1.min.js' %}"></script>
+    <script src="{% static 'Scripts/bootstrap.min.js' %}"></script>
+</body>
+</html>
