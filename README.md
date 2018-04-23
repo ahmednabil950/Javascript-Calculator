@@ -1,7 +1,7 @@
 # Javascript-Calculator
 Simple Javascript web application that simulate a calculator.
 
-![Sample]("https://github.com/ahmednabil950/Javascript-Calculator/blob/master/img/Selection_075.png")
+![Sample](https://github.com/ahmednabil950/Javascript-Calculator/blob/master/img/Selection_075.png "")
 
 ### Requirements:
 * CSS basics
