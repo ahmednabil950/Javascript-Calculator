@@ -11,13 +11,16 @@ Simple Javascript web application that simulate a calculator.
 * python3
 * Django (optional)
 
+
+
 ### Demos
-Online: </br>
-[online demo](https://rocky-plateau-72116.herokuapp.com/) </br>
-Deplyed on heroku using django framework
+**Online:** </br>
+[online demo](https://rocky-plateau-72116.herokuapp.com/) Deplyed on heroku using django framework
+</br>
 
 
-Offline:
+
+**Offline:**
 1. Clone the repo using </br>
 ``` git clone https://github.com/ahmednabil950/Javascript-Calculator.git```
 2. install all dependencies </br>
