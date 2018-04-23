@@ -1,2 +1,2 @@
 # Javascript-Calculator
-Simple Javascript application that simulate a calculator.
+Simple Javascript web application that simulate a calculator.
