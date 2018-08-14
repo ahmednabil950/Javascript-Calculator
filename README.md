@@ -15,7 +15,7 @@ Simple Javascript web application that simulate a calculator.
 
 ### Demos
 **Online:** </br>
-[online demo](https://rocky-plateau-72116.herokuapp.com/) Deplyed on heroku using django framework
+[online demo](https://js-simple-calculator.herokuapp.com/) Deplyed on heroku using django framework
 </br>
 
 
