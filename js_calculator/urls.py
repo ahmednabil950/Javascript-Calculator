@@ -22,5 +22,6 @@ urlpatterns = [
     path('', home),
 ]
 
+## this lines serve all static files in heroku or any hosting services
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns += staticfiles_urlpatterns()
